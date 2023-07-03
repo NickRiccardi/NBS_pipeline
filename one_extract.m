@@ -2,7 +2,7 @@
 clear all;
 
 %% Importport the data
-filenames = dir('C:\Users\Xingpei Zhao\Documents\South Carolina\project\NEW DATA\Anomic_Broca');
+filenames = dir('/path/to/matfiles');
 names = {filenames.name}';
 file_r = names(3:end);
 
@@ -24,7 +24,7 @@ rs_rcorr = cell(n,2);
 for b = 1:n
     temp = file_r(b);
     if  cellstr(temp) ~= ""
-        path = strcat('C:\Users\Xingpei Zhao\Documents\South Carolina\project\NEW DATA\Anomic_Broca\',cell2mat(temp));
+        path = strcat('/path/to/files/',cell2mat(temp));
         load(path)
         rs_rcorr(b,1) = temp;
         rs_rcorr(b,2) = {rest_AICHA.r};    
