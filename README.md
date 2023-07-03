@@ -13,6 +13,7 @@ Step 2: Run “two_prepare.m”
 4.	*optional: non-normalized correlation matrices are saved as “corr.mat”
 
 Step 3: Run NBS GUI
+NOTE: corr_Z.mat and design matrix should be stored in their own folder - NBS doesn't like when other files are in the directory
 1.	Select design matrix and normalized correlation matrices, specify GLM
 2.	T-test, 5000 perms, NBS correction
 3.	Use COG and labels .txt files
