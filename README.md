@@ -11,10 +11,12 @@ Step 2: Run “two_prepare.m”
 2.	Normalize the correlation matrices by Fisher z-transformation
 3.	Save normalized correlation matrices after organization as a matlab file, named “'corr_Z.mat'”
 4.	*optional: non-normalized correlation matrices are saved as “corr.mat”
+
 Step 3: Run NBS GUI
 1.	Select design matrix and normalized correlation matrices, specify GLM
 2.	T-test, 5000 perms, NBS correction
 3.	Save results
+
 Step 4: For data visualization, I am using BrainNet Viewer (https://www.nitrc.org/projects/bnv/) for visualizing results. If you have any other preferences, feel free to use it.
 1.	Go to folder “Visualization”
 2.	Use “Make_files_copy.R” file to generate edge/node input for BrainNetViewer
