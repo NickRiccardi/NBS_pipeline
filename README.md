@@ -17,6 +17,7 @@ Step 3: Run NBS GUI
 2.	T-test, 5000 perms, NBS correction
 3.	Use COG and labels .txt files
 4.	Save results
+5.	ALTERNATE: use custom scripts in three_analysis.m if other FWER corrections are desired
 
 Step 4: For data visualization, I am using BrainNet Viewer (https://www.nitrc.org/projects/bnv/) for visualizing results. If you have any other preferences, feel free to use it.
 1.	Go to folder “Visualization”
