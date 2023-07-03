@@ -15,7 +15,8 @@ Step 2: Run “two_prepare.m”
 Step 3: Run NBS GUI
 1.	Select design matrix and normalized correlation matrices, specify GLM
 2.	T-test, 5000 perms, NBS correction
-3.	Save results
+3.	Use COG and labels .txt files
+4.	Save results
 
 Step 4: For data visualization, I am using BrainNet Viewer (https://www.nitrc.org/projects/bnv/) for visualizing results. If you have any other preferences, feel free to use it.
 1.	Go to folder “Visualization”
